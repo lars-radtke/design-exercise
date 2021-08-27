@@ -1,1 +1,4 @@
-@import './_base.css'
+@import './_base.css';
+@import 'components/header.css';
+@import 'components/tile.css';
+@import 'components/footer.css';

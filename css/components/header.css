@@ -1,0 +1,52 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    background-image:url('/design/images/bg-hero-desktop.svg'); 
+    padding: 2vh;
+    background-color: var(--pale-cyan);
+}
+
+.header__top--wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__bottom--wrapper {
+    display: flex;
+    margin-top: 3vh;
+}
+
+.header__left--wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 2vh;
+}
+
+.header__logo {
+    width: 12vw;
+    height: auto;
+    padding-left: 2vh;
+}
+
+.header__hero {
+    width: 50%;
+    height: auto;
+    margin-right: 2vh;
+}
+
+.header__text {
+    font-family: var(—open-sans);
+    font-weight: 400;
+    padding-right: 4vh;
+    font-size: 1.2rem;
+}
+
+.header h1 {
+    font-family: var(—poppins);
+    font-weight: 600;
+    font-size: 2.4rem;
+    margin: 0;
+    padding-right: 7vh;
+    padding-top: 5vh;
+}

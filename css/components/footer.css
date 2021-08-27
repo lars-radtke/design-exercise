@@ -1,72 +1,84 @@
 .footer {
-	height: 560px;
 	background-color: #00252E;
 	color: white;
-	padding: 0px 120px;
+	padding: 160px 120px 120px 120px;
 	position: relative;
 }
 
 .footer__aside {
-	padding: 30px 80px ;
-	white-space: nowrap;
-	font-family: "Open Sans";
+	padding: 50px 80px ;
 	background-color: white;
-	text-align: center;
-	color: var(--dark-cyan);
 	border-radius: 20px;
 	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	white-space: nowrap;
 	position: absolute;
 	left: 50%;
-	top: -20%;
+	top: -25%;
 	transform: translateX(-50%);
 }
 
-.footer__cta{
-	box-shadow:inset 0px 1px 0px 0px #fbafe3;
-	background-color:#eb4da1;
-	border-radius:42px;
-	border:1px solid #ff00bb;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:21px 70px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #c70067;
-	transition: 0.4s;
-}
-
-.footer__cta:hover {
-	opacity: 0.5;
-}
-
-.footer__logo {
-	margin-top: 160px;
-	margin-bottom: 20px;
+.aside__title {
+	font-family: var(--open-sans);
+	text-align: center;
+	color: var(--dark-cyan);
+	margin-bottom: 30px;
 }
 
 .footer__main {
-	display: flex;
-	justify-content: space-between;
-	border: 1px solid green;
+	height: 100%;
 	font-family: var(--open-sans);
 	font-weight: 300;
-	font-size: 0.9rem;
-}
-
-.footer__address {
-	display: flex;
-	flex-direction: column;
 	border: 1px solid red;
 }
 
-.footer__icon {
-	float: left;
+.footer__logo {
+	height: 40px;
+	margin-bottom: 40px;
 }
 
 .footer__contact {
-	font-style: normal
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
 }
 
+.contact__item:not(:last-child) {
+	margin-right: 5vw;
+}
+
+
+.contact__address {
+	display: grid;
+	column-gap: 10px;
+	grid-template-columns: 30px auto;
+}
+
+.contact__icon {
+	margin-top: 5px;
+	display: inline-block;
+}
+
+.contact__link {
+	text-decoration: none;
+	color: white;
+	padding: 0px 10px;
+	margin-bottom: 15px;
+}
+
+.contact__learn-more {
+	display: grid;
+	grid-template-columns: auto auto;
+	grid-auto-rows: 40px;
+	row-gap: 20px;
+}
+
+.social__icon {
+	text-decoration: none;
+	color: inherit;
+}
+
+.socials__icon img{
+	box-sizing: content-box;
+	width: 20px;
+	padding: 5px;
+}

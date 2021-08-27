@@ -1,52 +1,83 @@
 .header {
-    display: flex;
-    flex-direction: column;
-    background-image:url('/design/images/bg-hero-desktop.svg'); 
-    padding: 2vh;
-    background-color: var(--pale-cyan);
+  display: flex;
+  flex-direction: column;
+  background-image: url('/design/images/bg-hero-desktop.svg');
+  padding: 2vh;
+  background-color: var(--pale-cyan);
 }
 
 .header__top--wrapper {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .header__bottom--wrapper {
-    display: flex;
-    margin-top: 3vh;
+  display: flex;
+  margin-top: 3vh;
 }
 
 .header__left--wrapper {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 2vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 2vh;
 }
 
 .header__logo {
-    width: 12vw;
-    height: auto;
-    padding-left: 2vh;
+  height: 2vh;
+  width: auto;
+  margin-left: 2vh;
 }
 
 .header__hero {
-    width: 50%;
-    height: auto;
-    margin-right: 2vh;
+  width: 50%;
+  height: auto;
+  margin-right: 2vh;
 }
 
 .header__text {
-    font-family: var(—open-sans);
-    font-weight: 400;
-    padding-right: 4vh;
-    font-size: 1.2rem;
+  font-family: var(—open-sans);
+  font-weight: 400;
+  padding-right: 4vh;
+  font-size: 1.2rem;
 }
 
 .header h1 {
-    font-family: var(—poppins);
-    font-weight: 600;
-    font-size: 2.4rem;
-    margin: 0;
-    padding-right: 7vh;
-    padding-top: 5vh;
+  font-family: var(—poppins);
+  font-weight: 600;
+  font-size: 2.4rem;
+  margin: 0;
+  padding-right: 7vh;
+  padding-top: 5vh;
+}
+
+.header__btncta {
+  box-shadow: inset 0px 1px 0px 0px #fbafe3;
+  background-color: var(--pink);
+  border-radius: 42px;
+  border: 1px solid #ff00bb;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: var(--open-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 21px 70px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #c70067;
+  transition: 0.4s;
+  margin-right: 15vw;
+  margin-top: 1.7vh;
+}
+
+.header__btntry {
+  background-color: white;
+  font-family: var(--open-sans);
+  text-decoration: none;
+  border-radius: 42px;
+  border: 1px transparent var(--pale-cyan);
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 1vh 4vw 1vh 4vw;
 }

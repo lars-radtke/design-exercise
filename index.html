@@ -3,38 +3,32 @@
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
     <link rel="stylesheet" href="./css/style.css" />
-    <title>Design Exercise</title>
+    <title>Huddle | Design Exercise</title>
   </head>
   <body>
     <header class="header">
-      <div class="header__top--wrapper">
-        <img
-          class="header__logo"
-          src="/design/images/logo.svg"
-          alt="huddle-logo"
-        />
-        <button class="header__btntry">Try It Free</button>
+      <div class="header__top-container">
+        <img class="header__logo" src="/design/images/logo.svg" alt="huddle-logo"/>
+      <button class="header__button">
+        Try It Free
+      </button>
+    </div>
+    <div class="header__bottom-container">
+      <div class="bottom-container__wrap">
+        <h1>
+         Build The Community<br>Your Fans Will Love
+        </h1>
+        <p class="bottom-container__text">
+         Huddle re-imagines the way we build communities. You have  a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+        </p>
+        <button class="cta header__cta">
+         Get Started For Free
+        </button>
       </div>
-
-      <div class="header__bottom--wrapper">
-        <div class="header__left--wrapper">
-          <h1>Build The Community Your Fans Will Love</h1>
-          <p class="header__text">
-            Huddle re-imagines the way we build communities. You have a voice,
-            but so does your audience. Create connections with your users as you
-            engage in genuine discussion.
-          </p>
-
-          <button class="header__btncta">Get Started For Free</button>
-        </div>
-        <img
-          class="header__hero"
-          src="/design/images/illustration-mockups.svg"
-          alt=""
-        />
-      </div>
+      <img class="header__hero" src="/design/images/illustration-mockups.svg" alt=""/>
+    </div>
     </header>
     <main>
       <div class="tile--wrapper">
@@ -86,75 +80,41 @@
       </div>
     </main>
     <footer class="footer">
-      <aside class="footer__aside">
-        <h2 class="footer__title">Ready To Build Your Community?</h2>
-        <button class="footer__cta">Get Started For Free</button>
-      </aside>
-      <img
-        class="footer__logo"
-        src="/design/images/logo-inverted.svg"
-        alt="huddle-logo"
-      />
-      <section class="footer__main">
-        <address class="footer__contact">
-          <img
-            class="footer__icon"
-            src="/design/images/icon-location.svg"
-            alt="postal-address"
-          />
-          <p class="footer__address">
-            Lorem ipsum dolor sit amet, consectetur
-            <br />
-            adipiscing elit, sed do eiusmod tempor
-            <br />
-            incididunt ut labore et dolore magna aliqua
-          </p>
-          <img
-            class="footer__icon"
-            src="/design/images/icon-phone.svg"
-            alt="phone-number"
-          />
-          <a class="footer__address" href="tel:+1-543-123-4567"
-            >+1-543-123-4567</a
-          >
-          <img
-            class="footer__icon"
-            src="/design/images/icon-email.svg"
-            alt="email"
-          />
-          <a class="footer__address" href="mailto:example@huddle.com"
-            >example@huddle.com</a
-          >
-        </address>
-        <nav class="footer__nav">
-          <a href="#">About Us</a>
-          <a href="#">What We Do</a>
-          <a href="#">FAQ</a>
-          <a href="#">Career</a>
-          <a href="#">Blog</a>
-          <a href="#">Contact Us</a>
-        </nav>
-        <div class="footer__social">
-          <img
-            class="footer__icon"
-            src="/design/images/icon-location.svg"
-            alt="facebook"
-          />
-          <img
-            class="footer__icon"
-            src="/design/images/icon-location.svg"
-            alt="twitter"
-          />
-          <img
-            class="footer__icon"
-            src="/design/images/icon-location.svg"
-            alt="instagram"
-          />
+        <aside class="footer__aside">
+            <h2 class="aside__title">Ready To Build Your Community?</h2>
+            <button class="cta">Get Started For Free</button>
+        </aside>
+      <div class="footer__main">
+        <img class="footer__logo" src="/design/images/logo-inverted.svg" alt="Huddle contact information">
+        <div class="footer__contact">
+          <div class="contact__item contact__address">
+            <img class="contact__icon" src="/design/images/icon-location.svg" alt="postal address:">
+            <adress class="contact__link">
+              Lorem ipsum dolor sit amet, consectetur
+              <br>
+              adipiscing elit, sed do eiusmod tempor
+              <br>incididunt ut labore et dolore magna aliqua
+            </adress>
+            <img class="contact__icon" src="/design/images/icon-phone.svg" alt="Phone:">
+            <a class="contact__link" href="tel:+1-543-123-4567">+1-543-123-4567</a>
+            <img class="contact__icon" src="/design/images/icon-email.svg" alt="Email:">
+            <a class="contact__link" href="mailto:example@huddle.com">example@huddle.com</a>
+          </div>
+          <div class="contact__item contact__learn-more" aria-label="Learn more:">
+            <a class="contact__link" href="/">About Us</a>
+            <a class="contact__link" href="/">What We Do</a>
+            <a class="contact__link" href="/">FAQ</a>
+            <a class="contact__link" href="/">Career</a>
+            <a class="contact__link" href="/">Blog</a>
+            <a class="contact__link" href="/">Contact Us</a>
+          </div>
+          <div class="contact__item contact__socials" aria-label="Social Media:">
+            <a href="/" class="socials__icon" aria-label="Faceebook"><img src="/design/images/facebook.png" alt=""></a>
+            <a href="/" class="socials__icon" aria-label="Twitter"><img src="/design/images/twitter.svg" alt=""></a>
+            <a href="/" class="socials__icon" aria-label="Instagram"><img src="/design/images/instagram.svg" alt=""></a>
+          </div>
         </div>
-      </section>
-      <p class="footer__copy">
-        &copy Copyright 2018 Huddle. All rights reserved.
-      </p>
+      </div>
     </footer>
   </body>
 </html>

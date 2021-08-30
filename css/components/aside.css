@@ -1,0 +1,19 @@
+.aside {
+  max-width: 100%;
+  padding: 50px 80px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  white-space: nowrap;
+  position: absolute;
+  left: 50%;
+  top: -25%;
+  transform: translateX(-50%);
+}
+
+.aside__title {
+  font-family: var(--open-sans);
+  text-align: center;
+  color: var(--dark-cyan);
+  margin-bottom: 30px;
+}

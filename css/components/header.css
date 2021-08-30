@@ -53,6 +53,7 @@ p {
     line-height: 1.5;
 }
 .cta{
+    white-space: nowrap;
 	display: block;
 	margin-left: auto;
     margin-right: auto;

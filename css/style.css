@@ -61,6 +61,10 @@
 		padding-left: 80px;
 		padding-right: 80px;
 	}
+	.footer__aside {
+		top: -15%;
+		padding: 30px 40px;
+	}
 }
 
 @media only screen and (max-width: 800px){
@@ -76,6 +80,12 @@
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+
+	.footer__aside {
+		top: -15%;
+		padding: 30px 40px;
+		white-space: normal;
+	}
 }
 
 @media only screen and (max-width: 600px){
@@ -89,5 +99,10 @@
 	.footer {
 		padding-left: 20px;
 		padding-right: 20px;
+	}
+
+	.footer__aside {
+		top: -10%;
+		padding: 20px;
 	}
 }

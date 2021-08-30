@@ -40,12 +40,11 @@
   margin: 0;
   padding-right: 7vh;
   padding-top: 2vh;
-  min-width: ;
 }
 
 .tile__p {
   font-family: var(—open-sans);
   font-weight: 300;
-
+  padding-top: 1rem;
   font-size: 1.2rem;
 }

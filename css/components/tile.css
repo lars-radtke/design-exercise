@@ -1,12 +1,11 @@
 .tile--wrapper {
   display: flex;
-  flex-flow: wrap column;
-  margin: 7vh 3vw 10vh 3vw;
+  flex-direction: column;
+  margin: 7vh 3vw 20vh 3vw;
   gap: 3vh;
 }
 .tile {
   display: flex;
-  flex-flow: wrap row;
   justify-content: space-between;
   border: 1px transparent var(--gray-blue);
   border-radius: 16.66px;
@@ -30,7 +29,6 @@
 
 .tile__img {
   width: 33%;
-  height: auto;
 }
 
 .tile__header {
@@ -40,7 +38,6 @@
   margin: 0;
   padding-right: 7vh;
   padding-top: 2vh;
-  min-width: ;
 }
 
 .tile__p {

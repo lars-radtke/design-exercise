@@ -1,0 +1,17 @@
+.cta {
+  white-space: nowrap;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--pink);
+  border: 2px solid var(--pink);
+  border-radius: 50px;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: var(--open-sans);
+  font-size: 1rem;
+  padding: 15px 60px;
+  text-decoration: none;
+  box-shadow: 0 0 5px rgba(94, 46, 81, 0.5);
+  transition: 0.5s;
+}
